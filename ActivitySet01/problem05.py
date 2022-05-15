@@ -1,4 +1,4 @@
-# Functions
+
 
 score = input("Enter Score: ")
 s =float(score)
