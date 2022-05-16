@@ -1,25 +1,25 @@
 # Loops and iteration
 
-largest = 0
-smallest = 0
-print("Invalid output")
+largest = None
+smallest = None
 while True:
     num = input("Enter a number: ")
     if num == "done":
         break
-    a= input("A number: ")
-    if a == "done":
-        break
+    try :
+        num_i=int(num)
+    except:
+        print("Invalid input")
+	continue
 
-    
-def compare(num,num1,largest,smallest):
-	if a>num:
-         return a
-         
-        
-        
-         
+    if largest is None:
+        largest=num_i
+    elif num_i>largest:
+        largest=num_i
+    if smallest is None:
+        smallest=num_i
+    elif num_i<smallest:
+        smallest=num_i
 
-print("Maximum", a)        
-print("Minimum",smallest)
-
+print("Maximum is", largest)
+print("Minimum is", smallest)
