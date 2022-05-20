@@ -1,17 +1,7 @@
-# Files
+#Strings
 
-filename = "dataset/mbox-short.txt"
-largest = None
-smallest = None
-print("Invalid input")
-while True:
-    num = input("Enter a number: ")
-    if num == "done":
-        break
-        
-	for num_i in[num]:
-	    if num > largest:
-	    	largest = num
-   
-
-print("Maximum", largest)
+str = "X-DSPAM-Confidence: 0.8475"
+ipos=str.find(":")
+piece=str[ipos+2:]
+value=float(piece)
+print(value)
