@@ -19,5 +19,6 @@ while True:
     elif num_i<smallest:
         smallest=num_i
 
+
 print("Maximum is", largest)
 print("Minimum is", smallest)
