@@ -1,3 +1,3 @@
-# List
+# Lists
 
 filename = "dataset/romeo.txt"
