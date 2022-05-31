@@ -1,3 +1,2 @@
-# Dictionaries
+#  Lists
 
-filename = "dataset/mbox-short.txt"
