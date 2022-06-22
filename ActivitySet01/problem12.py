@@ -5,7 +5,7 @@ def isPalindrome(s):
     return s == s[::-1]
 # Driver code
 s = "hello"
-ans = isPalindrome(s)
+ans =isPalindrome(s)
  
 if ans:
     print("Yes")
